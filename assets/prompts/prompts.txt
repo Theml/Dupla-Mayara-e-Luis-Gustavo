@@ -1,0 +1,25 @@
+Prompts utilizadas na atividade
+
+"Atue como desenvolvedor de jogos 2D em HTML5 Canvas. Sugira 3 ideias de jogo no tema nave espacial. cada uma com:
+mecânicas centrais, entidades, estados do jogo, eventos de teclado, uso de paralaxe, colisão, spritesheet/clipping e disparo.
+Inclua uma lista de tarefas priorizadas (MVP → Polimento)."
+
+"Agora com a 1° ideia, crie um projeto base de jogo 2D em Canvas com: 
+index.html simples;
+style.css básico (centralização e fonte legível);
+main.js contendo:
+loop de animação com requestAnimationFrame,
+funções update() e draw(),
+controle de teclado (WASD/setas),
+cenário com 2–3 camadas de paralaxe,
+estrutura de entidades (player, inimigos, balas),
+sistema de colisão AABB.
+Inclua comentários explicativos em cada seção do código."
+
+"Dado o spritesheet com 36x48, implemente a animação do player (idle, run, shoot) no Canvas.
+Utilize drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh) para realizar o clipping.
+Adicione controle de taxa de quadros (frameTimer)."
+
+"Implemente os spritesheets dos inimigos, alternando no jogo conforme o nível, para simular a troca de fases."
+
+"Implemente a colisão do player com o tiro do inimigo, adicionando 3 vidas para o player se o player tomar 3 tiros sua vida é zerada e o jogo da GAME OVER!"
